@@ -1,0 +1,18 @@
+{
+  "name": "asbs-lcd",
+  "version": "0.1.0",
+  "description": "Displays information about an Artemis SBS game on a I2C LCD 16x2 characters display.",
+  "main": "index.js",
+  "dependencies": {
+    "argparse": "^1.0.2",
+    "i2c": "http://github.com/kelly/node-i2c/tarball/289f0ed1b70e068c3786ba828d8c2feebd3e72ed",
+    "lcd-pcf8574": "^1.0.3",
+    "asbs-lib": "git://github.com/artemis-nerds/node-asbs-lib.git#master"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Iván Sánchez Ortega <ivan@sanchezortega.es>",
+  "license": "Beerware"
+}
