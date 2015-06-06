@@ -2,6 +2,8 @@
 Displays information about an Artemis SBS game on a I2C LCD 16x2 characters display.
 
 
+![node-asbs-lcd in action](https://s3.amazonaws.com/files.websitetoolbox.com/145634/2336153)
+
 Still in a quite experimental stage, so expect rough edges.
 
 
@@ -9,15 +11,17 @@ Still in a quite experimental stage, so expect rough edges.
 ## Requirements
 
 * A computer with an i2c interface in easy reach (a Raspberry Pi is a very good choice)
+* NodeJS >= v0.10.x, NPM, GIT.
 * A 16x2 LCD display with a 1602 microcontroller provinding the i2c interface
 * Having read the documentation about how to enable i2c in a Raspberry Pi
 * Being aware that a mistake in connecting the i2c devices can result in damage to your hardware if you are not careful
 * Knowing how to detect the i2c bus and the device address of an i2c device
 
-
 ## Installation
 
 Clone the repo and `npm install`. In a low power computer, the whole process can take around 15 minutes.
+
+Make sure you're not using outdated (v0.6.x) versions of NodeJS, which are default in some old RaspPi images.
 
 ## Running
 
