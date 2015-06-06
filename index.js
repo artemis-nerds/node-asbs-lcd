@@ -1,6 +1,5 @@
 var LCD = require('lcd-pcf8574');
 var asbs = require('asbs-lib');
-var config = require('config');
 var fs = require('fs');
 
 var packageData = JSON.parse(fs.readFileSync('./package.json'));
